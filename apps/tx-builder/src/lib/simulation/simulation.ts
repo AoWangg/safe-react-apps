@@ -29,6 +29,10 @@ const NON_SUPPORTED_CHAINS = [
   '73799',
   // Aurora
   '1313161554',
+  //bitalyer testnet
+  '200810',
+  //bitalyer Mainnet
+  '200901',
 ]
 
 const isSimulationSupported = (chainId: string) => !NON_SUPPORTED_CHAINS.includes(chainId)
